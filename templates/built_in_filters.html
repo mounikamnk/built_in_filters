@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>built_in_filters</h1>
+        {{data}}
+        <br>
+        <h2 style="color: aqua;">{{data|lower}}</h2>
+        <br>
+        <h2 style="color: blue;">{{data|upper}}</h2>
+        <br>
+        <h2 style="color: rgb(0, 255, 140);">{{data|capfirst}}</h2>
+        <br>
+        <h2 style="color: rgb(255, 208, 0);">{{data|title}}</h2>
+        <br>
+        <h2 style="color: rgb(61, 206, 206);">{{data|length}}</h2>
+        <h2 style="color: aqua;">{{data|truncatewords:2}}</h2>
+        <h2 style="color: rgb(255, 0, 144);">{{data|truncatechars:5}}</h2>
+        <h2 style="color: aqua;">{{data|slice:5}}</h2>
+        <h2 style="color: aqua;">i have {{c}} mango {{c|pluralize}}</h2>
+        <h2 style="color: rgb(30, 0, 255);">i have {{c}} mango {{c|pluralize:'es'}}</h2>
+        <h2 style="color: rgb(0, 255, 60);">this {{c}} cat  {{c|pluralize:'is,are'}} mine</h2>
+        <h2>{{de|date:'Y'}}</h2>
+        <h2>{{de|date:'M'}}</h2>
+        <h2>{{de|date:'y'}}</h2>
+        <h2>{{de|date:'D'}}</h2>
+
+
+
+
+
+
+        
+        
+
+
+
+        
+    </center>
+</body>
+</html>
